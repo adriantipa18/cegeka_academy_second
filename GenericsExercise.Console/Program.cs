@@ -7,9 +7,6 @@ namespace GenericsExercise.Console
     {
         static void Main(string[] args)
         {
-
-            Student mockStud = new Student() { Id = "01", FisrtName = "Adrian", LastName = "Tipa"};
-            University mockUni = new University() { Id = "001", Address = "Iasi", Name = "Al. Ioan Cuza" };
             Menu menu = new Menu();
             menu.mainMenu();
 
